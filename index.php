@@ -3,6 +3,8 @@
 
 <?php require_once( ROOT_PATH . '/includes/public_functions.php') ?>
 
+<?php require_once( ROOT_PATH . '/includes/registration_login.php') ?>
+
 <!-- Retrieve all posts from database  -->
 <?php $posts = getPublishedPosts(); ?>
 
@@ -39,7 +41,7 @@
 			</a>
 			<?php endif ?>
 			<!-- // if statement that displays the topic -->
-			
+
 			<a href="single_post.php?post-slug=<?php echo $post['slug']; ?>">
 				<div class="post_info">
 					<h3><?php echo $post['title'] ?></h3>
