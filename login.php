@@ -17,6 +17,8 @@
 			<input type="text" name="username" value="<?php echo $username; ?>" value="" placeholder="Username">
 			<input type="password" name="password" placeholder="Password">
 			<button type="submit" class="btn" name="login_btn">Login</button>
+			<button type="submit" class="btn" name="login_btn">Forgot Password?</button>
+
 			<p>
 				Not yet a member? <a href="register.php">Sign up</a>
 			</p>
