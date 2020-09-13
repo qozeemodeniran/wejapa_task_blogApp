@@ -137,7 +137,7 @@ if (isset($_POST['reset-password'])) {
     $msg = wordwrap($msg,70);
     $headers = "From: info@qozeemblog.com";
     mail($to, $subject, $msg, $headers);
-    header('location: pending.php?email=' . $email);
+    header('location: ' . BASE_URL . '/pending.php?email=' . $email);
   }
 }
 
